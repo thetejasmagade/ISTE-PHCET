@@ -56,11 +56,7 @@
           </button>
         </div>
         <div class="flex items-center">
-          <img
-            id="content-desktop"
-            src="~/static/images/hero-img.png"
-            alt=""
-          />
+          <img id="content-desktop" src="~/static/images/hero-img.png" alt="" />
         </div>
       </div>
       <img
@@ -70,6 +66,7 @@
         alt=""
       />
     </div>
+
   </div>
 </template>
 
