@@ -58,7 +58,7 @@
         <div class="flex items-center">
           <img
             id="content-desktop"
-            src="https://technext.github.io/productly/v1.0.0/assets/img/hero/hero-img.png"
+            src="~/static/images/hero-img.png"
             alt=""
           />
         </div>
@@ -66,7 +66,7 @@
       <img
         id="content-mobile"
         class="pt-5"
-        src="https://technext.github.io/productly/v1.0.0/assets/img/hero/hero-img.png"
+        src="~/static/images/hero-img.png"
         alt=""
       />
     </div>
