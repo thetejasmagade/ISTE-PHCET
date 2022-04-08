@@ -6,7 +6,7 @@
         style="font-family: 'Monoton', cursive"
         ><span class="text-red-500">ISTE</span>&nbsp; PHCET</a
       > -->
-      <img src="http://www.isteonline.in/icons/logo.png" height="50" width="50">
+      <img src="~/static/images/logo.png" height="50" width="50">
       </NuxtLink
     >
   </div>
