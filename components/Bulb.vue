@@ -1,14 +1,14 @@
 <template>
   <div>
       <img
-          src="https://cdn-icons-png.flaticon.com/512/3939/3939627.png"
+          src="~/static/images/bulbon.png"
           v-if="!bulbOn"
           height="200px"
           width="200px"
           class="md:mx-auto ml-36"
         />
         <img
-          src="https://cdn-icons-png.flaticon.com/512/3939/3939470.png"
+          src="~/static/images/bulboff.png"
           v-else
           height="200px"
           width="200px"
