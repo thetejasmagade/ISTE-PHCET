@@ -1,5 +1,5 @@
 <template>
-  <nav class="fixed w-full md:p-3 bg-transparent p-4 font-sans md:px-32 px-8" style="background: rgba(255, 255, 255, 0.9)">
+  <nav class="fixed w-full md:p-3 bg-transparent p-4 font-sans md:px-32 px-8 z-50" style="background-color: rgba(254,254,254,0.9);">
     <div class="flex items-center justify-between">
       <!-- Header logo -->
       <div>
@@ -33,7 +33,7 @@
             <NuxtLink to="/about" :class="activeMenuForAbout">About</NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/team" :class="activeMenuForTeam">Team</NuxtLink>
+            <NuxtLink to="/outcomes" :class="activeMenuForOutcomes">Outcomes</NuxtLink>
           </li>
           <li>
             <NuxtLink to="/events" :class="activeMenuForEvents"
@@ -284,30 +284,30 @@ export default {
         this.activeMenuForHome = "active border-b-2 border-red-500 pb-1";
         this.activeMenuForAbout = "";
         this.activeMenuForEvents = "";
-        this.activeMenuForTeam = "";
+        this.activeMenuForOutcomes = "";
         this.activeMenuForLogin = "";
       } else if ($nuxt.$route.name == "about") {
         this.activeMenuForHome = "";
         this.activeMenuForAbout = "active border-b-2 border-red-500 pb-1";
-        this.activeMenuForTeam = "";
+        this.activeMenuForOutcomes = "";
         this.activeMenuForEvents = "";
         this.activeMenuForLogin = "";
-      } else if ($nuxt.$route.name == "team") {
+      } else if ($nuxt.$route.name == "outcomes") {
         this.activeMenuForHome = "";
         this.activeMenuForAbout = "";
-        this.activeMenuForTeam = "active border-b-2 border-red-500 pb-1";
+        this.activeMenuForOutcomes = "active border-b-2 border-red-500 pb-1";
         this.activeMenuForEvents = "";
         this.activeMenuForLogin = "";
       } else if ($nuxt.$route.name == "events") {
         this.activeMenuForHome = "";
         this.activeMenuForAbout = "";
-        this.activeMenuForTeam = "";
+        this.activeMenuForOutcomes = "";
         this.activeMenuForEvents = "active border-b-2 border-red-500 pb-1";
         this.activeMenuForLogin = "";
       } else if ($nuxt.$route.name == "login") {
         this.activeMenuForHome = "";
         this.activeMenuForAbout = "";
-        this.activeMenuForTeam = "";
+        this.activeMenuForOutcomes = "";
         this.activeMenuForEvents = "";
         this.activeMenuForLogin = "active border-b-2 border-red-500 pb-1";
       }
