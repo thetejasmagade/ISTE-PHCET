@@ -37,17 +37,15 @@
               rounded-t-lg
               md:rounded-none md:rounded-l-lg
             "
-            src="~/static/poster1.png"
+            src="~/static/poster11.jpg"
             alt=""
           />
           <div class="p-6 flex flex-col justify-start">
             <h5 class="text-gray-900 text-xl font-medium mb-2">
-              Data Privacy & Security Workshop
+              IOE Exhibition
             </h5>
             <p class="text-gray-700 text-base mb-4">
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
+              IoT India expo showcases organizations leading the way in IoT adoption, enabling them to propel into a new world of business quicker, with more accurate data, ensuring their business can thrive through new technology adoptions.
             </p>
             <p class="text-gray-600 text-xs">26 March, 2022</p>
           </div>
@@ -74,17 +72,15 @@
               rounded-t-lg
               md:rounded-none md:rounded-l-lg
             "
-            src="~/static/poster2.png"
+            src="~/static/poster21.png"
             alt=""
           />
           <div class="p-6 flex flex-col justify-start">
             <h5 class="text-gray-900 text-xl font-medium mb-2">
-              The Future Of Digital World
+              Ethical Hacking Workshop
             </h5>
             <p class="text-gray-700 text-base mb-4">
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
+              Hacking is not about the illegal things it's all about how to secure your cyberspace and system from attacks.
             </p>
             <p class="text-gray-600 text-xs">29 April, 2022</p>
           </div>

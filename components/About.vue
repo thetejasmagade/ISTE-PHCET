@@ -1,6 +1,6 @@
 <template>
   <div id="About">
-    <div id="content-mobile" class="mx-8 text-center">
+    <!-- <div id="content-mobile" class="mx-8 text-center">
       <div class="pl-16">
         <img
           src="~/static/images/bulbon.png"
@@ -57,12 +57,9 @@
       >
         Turn Bulb OFF
       </button>
-    </div>
-    <div class="grid grid-cols-3 gap-4">
-      <div class="pt-1 md:pt-28">
-        <Bulb id="content-desktop" />
-      </div>
-      <div class="col-span-3 md:col-span-2 container mx-auto md:px-32 px-8">
+    </div> -->
+    <div class="">
+      <div class="container mx-auto md:px-32 px-8 text-center">
         <h1
           class="
             text-5xl
@@ -116,7 +113,7 @@
               mb-2
             "
           >
-            Read More ...
+            Read More
           </button>
         </NuxtLink>
       </div>
