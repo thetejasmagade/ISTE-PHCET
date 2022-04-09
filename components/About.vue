@@ -116,7 +116,7 @@
               mb-2
             "
           >
-            Read More
+            Read More ...
           </button>
         </NuxtLink>
       </div>
