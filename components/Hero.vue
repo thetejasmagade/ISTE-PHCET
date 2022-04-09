@@ -259,6 +259,6 @@ export default {};
 }
 
 header {
-  background: url("https://scontent.fbom10-2.fna.fbcdn.net/v/t1.6435-9/46449302_356623768425406_4737202967319412736_n.jpg?stp=cp0_dst-jpg_e15_q65_s403x403&_nc_cat=102&ccb=1-5&_nc_sid=dd9801&_nc_ohc=VzGXqtCWk-sAX-nhbr8&_nc_ht=scontent.fbom10-2.fna&oh=00_AT8Rt_a4FdV3KPlXR2yFoMFequsYFx35fcnJIMxJhMMULg&oe=6276F694");
+  background: url("~/static/herobg.jpg");
 }
 </style>
