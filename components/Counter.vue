@@ -1,4 +1,5 @@
 <template>
+<div>
   <div class="mt-8" style="background-color: #212121">
     <div class="md:mx-32 mx-8">
       <div class="grid grid-cols-2 md:grid-cols-4 gap-1 text-center py-12">
@@ -28,7 +29,7 @@
             :to="100"
             :format="theFormat"
             :duration="2"
-            :delay="1"
+            :delay="2"
             easing="Power1.easeOut"
           />
           <h2
@@ -64,7 +65,7 @@
             :to="30"
             :format="theFormat"
             :duration="2"
-            :delay="1"
+            :delay="2"
             easing="Power1.easeOut"
           />
           <h2
@@ -99,7 +100,7 @@
             :to="100"
             :format="theFormat"
             :duration="2"
-            :delay="1"
+            :delay="2"
             easing="Power1.easeOut"
           />
           <h2
@@ -133,7 +134,7 @@
             :to="250"
             :format="theFormat"
             :duration="2"
-            :delay="1"
+            :delay="2"
             easing="Power1.easeOut"
           />
           <h2
@@ -144,6 +145,7 @@
           </h2>
         </div>
       </div>
+    </div>
     </div>
   </div>
 </template>

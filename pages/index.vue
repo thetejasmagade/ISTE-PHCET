@@ -3,7 +3,8 @@
     <Navbar />
     <Hero />
     <About />
-    <Counter/>
+    <Counter />
+    <Events />
   </div>
 </template>
 
