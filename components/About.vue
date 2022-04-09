@@ -1,26 +1,26 @@
 <template>
   <div id="About">
-    <div id="content-mobile">
-      <img
-        src="~/static/images/bulbon.png"
-        v-if="!bulbOn"
-        height="200px"
-        width="200px"
-        class="md:mx-auto ml-28 pt-12"
-      />
-      <img
-        src="~/static/images/bulboff.png"
-        v-else
-        height="200px"
-        width="200px"
-        class="md:mx-auto ml-28 pt-12"
-      />
-
+    <div id="content-mobile" class="mx-8 text-center">
+      <div class="pl-16">
+        <img
+          src="~/static/images/bulbon.png"
+          v-if="!bulbOn"
+          height="200px"
+          width="200px"
+          class="pt-12"
+        />
+        <img
+          src="~/static/images/bulboff.png"
+          v-else
+          height="200px"
+          width="200px"
+          class="pt-12"
+        />
+      </div>
       <button
         type="button"
         @click="turnOn()"
         class="
-          mx-20
           mt-8
           text-white
           bg-yellow-400

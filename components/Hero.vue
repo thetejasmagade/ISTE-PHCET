@@ -1,5 +1,5 @@
 <template>
-  <div class="pt-28 css-selector ">
+  <div class="pt-28 css-selector md:h-screen ">
     <div class="px-4 md:px-28 md:py-14 py-6 mb-0 pb-0 text-center md:text-left">
       <div class="grid grid-cols-2 md:grid-cols-3 gap-4 md:pt-14">
         <div class="col-span-2">
