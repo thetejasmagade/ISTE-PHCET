@@ -167,6 +167,7 @@ export default {
   },
   created() {
     this.animation();
+    setInterval(this.animation, 1000);
   },
   methods: {
     animation() {
@@ -194,7 +195,6 @@ export default {
 
         var that = this;
         var delta = 300 - Math.random() * 100;
-
         if (this.isDeleting) {
           delta /= 2;
         }

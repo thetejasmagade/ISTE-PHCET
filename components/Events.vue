@@ -37,7 +37,7 @@
               rounded-t-lg
               md:rounded-none md:rounded-l-lg
             "
-            src="~/static/poster11.jpg"
+            src="~/static/poster1.jpg"
             alt=""
           />
           <div class="p-6 flex flex-col justify-start">
@@ -72,7 +72,7 @@
               rounded-t-lg
               md:rounded-none md:rounded-l-lg
             "
-            src="~/static/poster21.png"
+            src="~/static/poster2.png"
             alt=""
           />
           <div class="p-6 flex flex-col justify-start">
