@@ -1,6 +1,6 @@
 <template>
   <div>
-    <NuxtLink to="/">
+    <a href="/">
       <!-- <a
         class="text-black font-bold text-3xl"
         style="font-family: 'Monoton', cursive"
@@ -12,10 +12,10 @@
           <img src="~/static/images/logo.png" style="width: 50%" />
         </div>
         <div class="column" id="content-desktop">
-          <img src="https://storage.googleapis.com/ezap-prod/colleges/1817/pillai-hoc-college-of-engineering-and-technology-khalapur-logo.jpg" style="width: 25%" />
+          <img src="~/static/phcet.jpg" style="width: 70%" />
         </div>
       </div>
-    </NuxtLink>
+    </a>
   </div>
 </template>
 

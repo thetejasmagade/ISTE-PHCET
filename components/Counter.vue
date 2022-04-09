@@ -26,7 +26,7 @@
             style='Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;'
             ref="number4"
             :from="0"
-            :to="100"
+            :to="101"
             :format="theFormat"
             :duration="2"
             :delay="2"
@@ -62,7 +62,7 @@
             style='Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;'
             ref="number3"
             :from="0"
-            :to="30"
+            :to="10"
             :format="theFormat"
             :duration="2"
             :delay="2"
@@ -97,7 +97,7 @@
             style='Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;'
             ref="number2"
             :from="0"
-            :to="100"
+            :to="5"
             :format="theFormat"
             :duration="2"
             :delay="2"
@@ -131,7 +131,7 @@
             style='Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;'
             ref="number1"
             :from="0"
-            :to="250"
+            :to="0"
             :format="theFormat"
             :duration="2"
             :delay="2"
