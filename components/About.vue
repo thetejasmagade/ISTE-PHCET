@@ -123,19 +123,7 @@
 
 <script>
 export default {
-  data() {
-    return {
-      bulbOn: false,
-    };
-  },
-  methods: {
-    turnOn() {
-      this.bulbOn = true;
-    },
-    turnOff() {
-      this.bulbOn = false;
-    },
-  },
+  
 };
 </script>
 
