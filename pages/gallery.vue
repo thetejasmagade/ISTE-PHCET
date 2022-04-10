@@ -33,7 +33,7 @@
                   h-full
                   rounded-lg
                 "
-                src="~/static/poster1.jpg"
+                src="~/static/gallery/poster1.png"
               />
             </div>
           </div>
@@ -48,7 +48,7 @@
                   h-full
                   rounded-lg
                 "
-                src="~/static/poster2.png"
+                src="~/static/gallery/poster2.png"
               />
             </div>
           </div>

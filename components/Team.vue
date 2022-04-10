@@ -514,7 +514,7 @@ export default {
         ],
         [
           {
-            name: "Mr. Siddhesh Khanvilkar",
+            name: "Siddhesh Khanvilkar",
             post: "Faculty Co-Ordinator",
             description: "IT Department",
             avatar: "https://phcet.ac.in/wp-content/uploads/2020/04/Mr.-Siddhesh-Khanvilkar.jpg",

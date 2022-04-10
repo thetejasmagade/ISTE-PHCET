@@ -73,7 +73,7 @@
               >
                 EMAIL
               </h2>
-              <a class="text-red-500 leading-relaxed">example@email.com</a>
+              <a class="text-red-500 leading-relaxed">iste.phcet@mes.ac.in</a>
               <h2
                 class="
                   title-font
@@ -86,7 +86,7 @@
               >
                 PHONE
               </h2>
-              <p class="leading-relaxed">123-456-7890</p>
+              <p class="leading-relaxed">+91 84518 02505</p>
             </div>
           </div>
         </div>

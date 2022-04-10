@@ -1,6 +1,6 @@
 <template>
   <div>
-    <a href="/">
+    <NuxtLink to="/">
       <!-- <a
         class="text-black font-bold text-3xl"
         style="font-family: 'Monoton', cursive"
@@ -15,7 +15,7 @@
           <img src="~/static/phcet.jpg" style="width: 70%" />
         </div>
       </div>
-    </a>
+    </NuxtLink>
   </div>
 </template>
 
