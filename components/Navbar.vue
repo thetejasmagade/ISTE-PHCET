@@ -1,5 +1,8 @@
 <template>
-  <nav class="fixed w-full md:p-3 bg-transparent p-4 font-sans md:px-32 px-8 z-50" style="background-color: rgba(254,254,254,0.9);">
+  <nav
+    class="fixed w-full md:p-3 bg-transparent p-4 font-sans md:px-32 px-8 z-50"
+    style="background-color: rgba(254, 254, 254, 0.9)"
+  >
     <div class="flex items-center justify-between">
       <!-- Header logo -->
       <div>
@@ -33,10 +36,14 @@
             <NuxtLink to="/about" :class="activeMenuForAbout">About</NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/gallery" :class="activeMenuForGallery">Gallery</NuxtLink>
+            <NuxtLink to="/gallery" :class="activeMenuForGallery"
+              >Gallery</NuxtLink
+            >
           </li>
           <li>
-            <NuxtLink to="/outcomes" :class="activeMenuForOutcomes">Outcomes</NuxtLink>
+            <NuxtLink to="/outcomes" :class="activeMenuForOutcomes"
+              >Outcomes</NuxtLink
+            >
           </li>
           <li>
             <NuxtLink to="/events" :class="activeMenuForEvents"
@@ -47,7 +54,8 @@
             <NuxtLink to="/login" :class="activeMenuForLogin">Login</NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/login"
+            <NuxtLink
+              to="/login"
               class="
                 cta
                 bg-gradient-to-r
@@ -137,33 +145,26 @@
 
         <ul class="divide-y font-sans">
           <li>
-            <a href="#" @click="isOpen = false" class="my-4 inline-block"
-              >Home</a
-            >
+            <NuxtLink to="/" @click="isOpen = false" class="my-4 inline-block">Home</NuxtLink>
           </li>
           <li>
-            <a href="#" @click="isOpen = false" class="my-4 inline-block"
-              >Services</a
-            >
+            <NuxtLink to="/about" @click="isOpen = false" class="my-4 inline-block">About</NuxtLink>
           </li>
           <li>
-            <a href="#" @click="isOpen = false" class="my-4 inline-block"
-              >Features</a
-            >
+            <NuxtLink to="/gallery" @click="isOpen = false" class="my-4 inline-block">Gallery</NuxtLink>
           </li>
           <li>
-            <a href="#" @click="isOpen = false" class="my-4 inline-block"
-              >FAQ</a
-            >
+            <NuxtLink to="/outcomes" @click="isOpen = false" class="my-4 inline-block">Outcomes</NuxtLink>
           </li>
           <li>
-            <a href="#" @click="isOpen = false" class="my-4 inline-block"
-              >Contact</a
-            >
+            <NuxtLink to="/events" @click="isOpen = false" class="my-4 inline-block">Events</NuxtLink>
           </li>
           <li>
-            <a
-              href="#"
+            <NuxtLink to="/login" @click="isOpen = false" class="my-4 inline-block">Login</NuxtLink>
+          </li>
+          <li>
+            <NuxtLink
+              to="/login"
               @click="isOpen = false"
               class="
                 my-8
@@ -172,15 +173,14 @@
                 font-semibold
                 cta
                 inline-block
-                bg-blue-500
-                hover:bg-blue-600
+                bg-red-500
+                hover:bg-red-600
                 px-3
                 py-2
                 rounded
                 text-white
               "
-              >Sign Up</a
-            >
+              >Become Member</NuxtLink>
           </li>
         </ul>
 
@@ -259,7 +259,6 @@
         </div>
       </aside>
     </div>
-    
   </nav>
 </template>
 
@@ -318,7 +317,7 @@ export default {
         this.activeMenuForEvents = "";
         this.activeMenuForLogin = "active border-b-2 border-red-500 pb-1";
         this.activeMenuForGallery = "";
-      }  else if ($nuxt.$route.name == "gallery") {
+      } else if ($nuxt.$route.name == "gallery") {
         this.activeMenuForHome = "";
         this.activeMenuForAbout = "";
         this.activeMenuForOutcomes = "";
