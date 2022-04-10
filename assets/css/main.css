@@ -1,18 +1,31 @@
 * {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 #content-desktop {
-    display: block;
-  }
-  #content-mobile {
+  display: block;
+}
+#content-mobile {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  #content-desktop {
     display: none;
   }
-  @media screen and (max-width: 768px) {
-    #content-desktop {
-      display: none;
-    }
-    #content-mobile {
-      display: block;
-    }
+  #content-mobile {
+    display: block;
   }
+}
+
+body::-webkit-scrollbar {
+  width: 6px;
+}
+
+body::-webkit-scrollbar-track {
+  background: lightgray;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #ef4444;
+  border-radius: 20px;
+}
