@@ -131,7 +131,7 @@
             style='Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;'
             ref="number1"
             :from="0"
-            :to="0"
+            :to="51"
             :format="theFormat"
             :duration="2"
             :delay="2"

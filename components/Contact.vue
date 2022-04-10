@@ -1,6 +1,6 @@
 <template>
   <div class="">
-      <img src="~/static/campfiresvg.svg">
+    
     <h1
       class="
         text-5xl

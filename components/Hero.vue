@@ -106,17 +106,18 @@
           class="font-bold md:text-6xl text-5xl leading-tight text-white"
           style="font-family: 'Poppins', sans-serif"
         >
-          ISTE
-          <span
+          ISTE <span class="text-red-500">PHCET</span>
+          <!-- <span
             class="txt-rotate text-red-500"
             data-period="2000"
             data-rotate='[ "PHCET" ]'
-          ></span>
+          ></span> -->
         </h1>
         <p class="text-xl pt-8 text-gray-100 pb-12">
           Empowering the future by Technology
         </p>
         <div class="inline-flex">
+          <NuxtLink to="/login">
           <button
             type="button"
             class="
@@ -136,6 +137,8 @@
           >
             Become a Member
           </button>
+          </NuxtLink>
+          <NuxtLink to="/about">
           <button
             class="
               text-white
@@ -154,6 +157,7 @@
           >
             Learn More
           </button>
+          </NuxtLink>
         </div>
       </div>
     </div>

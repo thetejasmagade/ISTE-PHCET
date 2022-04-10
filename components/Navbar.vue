@@ -33,6 +33,9 @@
             <NuxtLink to="/about" :class="activeMenuForAbout">About</NuxtLink>
           </li>
           <li>
+            <NuxtLink to="/gallery" :class="activeMenuForGallery">Gallery</NuxtLink>
+          </li>
+          <li>
             <NuxtLink to="/outcomes" :class="activeMenuForOutcomes">Outcomes</NuxtLink>
           </li>
           <li>
@@ -284,6 +287,7 @@ export default {
         this.activeMenuForHome = "active border-b-2 border-red-500 pb-1";
         this.activeMenuForAbout = "";
         this.activeMenuForEvents = "";
+        this.activeMenuForGallery = "";
         this.activeMenuForOutcomes = "";
         this.activeMenuForLogin = "";
       } else if ($nuxt.$route.name == "about") {
@@ -292,24 +296,35 @@ export default {
         this.activeMenuForOutcomes = "";
         this.activeMenuForEvents = "";
         this.activeMenuForLogin = "";
+        this.activeMenuForGallery = "";
       } else if ($nuxt.$route.name == "outcomes") {
         this.activeMenuForHome = "";
         this.activeMenuForAbout = "";
         this.activeMenuForOutcomes = "active border-b-2 border-red-500 pb-1";
         this.activeMenuForEvents = "";
         this.activeMenuForLogin = "";
+        this.activeMenuForGallery = "";
       } else if ($nuxt.$route.name == "events") {
         this.activeMenuForHome = "";
         this.activeMenuForAbout = "";
         this.activeMenuForOutcomes = "";
         this.activeMenuForEvents = "active border-b-2 border-red-500 pb-1";
         this.activeMenuForLogin = "";
+        this.activeMenuForGallery = "";
       } else if ($nuxt.$route.name == "login") {
         this.activeMenuForHome = "";
         this.activeMenuForAbout = "";
         this.activeMenuForOutcomes = "";
         this.activeMenuForEvents = "";
         this.activeMenuForLogin = "active border-b-2 border-red-500 pb-1";
+        this.activeMenuForGallery = "";
+      }  else if ($nuxt.$route.name == "gallery") {
+        this.activeMenuForHome = "";
+        this.activeMenuForAbout = "";
+        this.activeMenuForOutcomes = "";
+        this.activeMenuForEvents = "";
+        this.activeMenuForLogin = "";
+        this.activeMenuForGallery = "active border-b-2 border-red-500 pb-1";
       }
     },
   },
